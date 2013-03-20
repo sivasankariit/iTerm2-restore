@@ -18,6 +18,8 @@ running all terminals on a remote moshserver.
 1. Run make.
 2. Copy the .iTermServers file to your home directory.
 3. Edit the .iTermServers file to specify the moshserver to connect to and
-   provide the names or IP addresses of servers to connect to.
-4. Move iTermRestore.app to any location (eg. Desktop)
-5. Run the application by double clicking iTermRestore.app
+   provide names or IP addresses of servers to connect to.
+4. Move iTermRestore.app to any location (eg. Desktop).
+5. Make sure you have SSH key based access to the moshserver without having to
+   enter the password each time.
+6. Run the application by double clicking iTermRestore.app.
