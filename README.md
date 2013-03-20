@@ -8,10 +8,11 @@ running all terminals on a remote moshserver.
 
 ##Dependencies##
 
-1. mosh-client must be installed on the Mac OS X machine.
-2. mosh-server must be installed on the remote machine (moshserver) that we will
+1. iTerm2 must be installed on the Mac OS X machine.
+2. mosh-client must be installed on the Mac OS X machine.
+3. mosh-server must be installed on the remote machine (moshserver) that we will
    login to and save terminal state.
-3. GNU screen must be installed on the moshserver machine.
+4. GNU screen must be installed on the moshserver machine.
 
 ##Installation and Usage##
 
