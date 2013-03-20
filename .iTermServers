@@ -1,0 +1,19 @@
+# This file has to be configured with details of different servers
+# Do not leave empty lines in this file.
+#
+# Edit moshserver below to indicate the server on which to save state.
+#
+moshserver=vantage.domain.com
+#
+# Each remaining entry is a tuple with 3 fields:
+# 1. server: hostname or IP of server to connect to
+# 2. screenname: Name of the screen session for this server
+# 3. sessiontitle: Title for iTerm tab
+#
+# Will login to the moshserver and ssh to individual servers configured below.
+#
+server1.domain.com,scr1,srv1
+server2.domain.com,scr2,srv2
+# Will just use mosh-client to connect to below server as it is the moshserver
+# itself -> Will not open an ssh connection to itself.
+vantage.domain.com,local1,local
