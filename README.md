@@ -23,3 +23,5 @@ running all terminals on a remote moshserver.
 5. Make sure you have SSH key based access to the moshserver without having to
    enter the password each time.
 6. Run the application by double clicking iTermRestore.app.
+7. To connect to additional servers, edit ~/.iTermServers, add the new
+   servers to the list, and rerun iTermRestore.
