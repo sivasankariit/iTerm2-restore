@@ -1,4 +1,4 @@
-iTerm2-save-session
+iTerm2-restore
 ===================
 
 Save iTerm sessions using a moshserver and screen
@@ -12,3 +12,13 @@ running all terminals on a remote moshserver.
 2. mosh-server must be installed on the remote machine (moshserver) that we will
    login to and save terminal state.
 3. GNU screen must be installed on the moshserver machine.
+
+##Installation and Usage##
+
+1. Copy the .iTermServers file to your home directory.
+2. Edit the .iTermServers file to specify the moshserver to connect to and
+   provide the names or IP addresses of servers to connect to.
+3. Compile the applescript into an application:  
+   `osacompile -o iTermRestore.app iTermRestore.applescript`
+4. Move iTermRestore.app to any location (eg. Desktop)
+5. Run the application by double clicking iTermRestore.app
